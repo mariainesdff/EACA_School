@@ -61,7 +61,7 @@ example : P → P := by
 /- NOTE: Lean's convention is that `P → Q → R` means `P → (Q → R)` (that is, implication is
  right-associative).
 
-In particupar, in this example we need to show `P → (Q → P)`.
+In particular, in this example we need to show `P → (Q → P)`.
 
 As a general rule, if we don't know whether an operation is right or left associative, we can
 check it in the `Tactic state`, by hovering the cursor above the corresponding line.

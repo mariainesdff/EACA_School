@@ -4,7 +4,7 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Author : María Inés de Frutos-Fernández
 -/
 
-import Mathlib.Data.Real.Basic -- Importamos los números reales.
+import Mathlib.Data.Real.Basic -- We import the real numbers.
 
 /-!
 Some of these examples are adapted from the talk about structures and classes from LftCM 2022:

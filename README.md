@@ -15,6 +15,9 @@ The slides from the first session are available [here](https://github.com/mariai
 Session 2: Functions.
 The [Tutorial](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F2_functions%2Ffunctions_tutorial.lean), the [Exercises](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F2_functions%2Ffunctions_exercises.lean), and the [Tactic Guide](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F2_functions%2Ftactics_2.lean).
 
+Session 3: Structures and classes.
+We will discuss [Structures](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fstructures.lean), [Classes](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fclasses.lean), and examples from [Group Theory](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fgroups.lean). See also the [Tactic Guide](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Ftactics_3.lean).
+
 ## Installation Instructions
 Lean 4 installation instructions can be found [here](https://leanprover-community.github.io/get_started.html).
 

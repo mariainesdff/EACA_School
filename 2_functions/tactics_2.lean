@@ -63,6 +63,7 @@ example (h1 : P ↔ Q) (h2 : Q → R) : P → R := by
 
 example (hQ : ¬ Q) : ¬ (P ∧ Q)  := by
   -- `not_and` is a proof of `¬(P ∧ Q) ↔ (P → ¬Q)`.
+  --rw [and_comm]
   rw [not_and]
   intro _
   exact hQ
@@ -82,15 +83,18 @@ the existing hypotheses.
 
 To use this tactic, we write
 ```
-  have h : t,
-  { p },
+  have h : t := by
+    p
 ```
 where `h` is the name of the new hypothesis, `t` is what we want to show, and `p` 
 is a proof of it.  -/
 
 example : (P → Q) → (¬ Q → ¬ P) := by
-  intros hPQ hnQ hP
+  intro hPQ hnQ hP
   have hQ : Q := by -- we introduce the hypothesis, which appears as a new goal in the tactic state
+    -- apply hPQ
+    --exact hP
+    have h1 := hPQ hP
     exact hPQ hP -- we prove the new hypothesis
   exact hnQ hQ    -- we use it to prove the main goal
 
@@ -120,13 +124,15 @@ particular term of type `t`.
 -/
 example (h : ∀ n : ℕ, n < n + 1) : 3 < 4 := by
   exact h 3
+  
 
 /- ## cases' (nueva forma de uso) 
 Given a hypothesis `h : ∃ a : X, P a`, where `P a` is a proposition, the tactic
 `cases' h with x hx` produces a term `x : X` and a proof `hx : P x`.
 -/
-example (X : Type) (P Q : X → Prop) (h : ∃ x : X, P x) : ∃ x : X, P x ∨ Q x := by
-  cases' h with x hx
-  use x
+example (X : Type) (P Q : X → Prop) (h : ∃ x : X, P x) : 
+  ∃ x : X, P x ∨ Q x := by
+  cases' h with y hy
+  use y
   left
-  exact hx
+  exact hy

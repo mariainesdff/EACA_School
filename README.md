@@ -1,6 +1,6 @@
 # Formalizing Mathematics in Lean 4
 
-This repository contains the materials for the course **"Formalizing Mathematics in Lean"**, taught as part of the **Sixth EACA International School on Computer Algebra and its Applications** (Santiago de Compostela, July 18 - 21, 2023).
+This repository contains the materials for the course **"Formalizing Mathematics in Lean"**, taught as part of the [**Sixth EACA International School on Computer Algebra and its Applications**](https://www.usc.es/regaca/eacaschool23/index.html) (Santiago de Compostela, July 18 - 21, 2023).
 
 ## Tutorials and Exercises
 For each of the sessions, I will present a tutorial and then give you some exercises to solve. Some of the sessions will also include a tactic guide. All of the files can be tested online without installing Lean locally.

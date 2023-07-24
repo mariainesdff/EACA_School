@@ -1,6 +1,6 @@
 # Formalizing Mathematics in Lean 4
 
-This repository contains the materials for the course **"Formalizing Mathematics in Lean"**, taught as part of the **Sixth EACA International School on Computer Algebra and its Applications** (Santiago de Compostela, July 18 - 21, 2023).
+This repository contains the materials for the course **"Formalizing Mathematics in Lean"**, taught as part of the [**Sixth EACA International School on Computer Algebra and its Applications**](https://www.usc.es/regaca/eacaschool23/index.html) (Santiago de Compostela, July 18 - 21, 2023).
 
 ## Tutorials and Exercises
 For each of the sessions, I will present a tutorial and then give you some exercises to solve. Some of the sessions will also include a tactic guide. All of the files can be tested online without installing Lean locally.
@@ -14,6 +14,9 @@ The slides from the first session are available [here](https://github.com/mariai
 
 Session 2: Functions.
 The [Tutorial](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F2_functions%2Ffunctions_tutorial.lean), the [Exercises](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F2_functions%2Ffunctions_exercises.lean), and the [Tactic Guide](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F2_functions%2Ftactics_2.lean).
+
+Session 3: Structures and classes.
+We will discuss [Structures](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fstructures.lean), [Classes](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fclasses.lean), and examples from [Group Theory](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fgroups.lean). See also the [Tactic Guide](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Ftactics_3.lean).
 
 ## Installation Instructions
 Lean 4 installation instructions can be found [here](https://leanprover-community.github.io/get_started.html).

@@ -18,6 +18,9 @@ The [Tutorial](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent
 Session 3: Structures and classes.
 We will discuss [Structures](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fstructures.lean), [Classes](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fclasses.lean), and examples from [Group Theory](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Fgroups.lean). See also the [Tactic Guide](https://lean.math.hhu.de/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariainesdff%2FEACA_School%2Fmaster%2F3_structures%2Ftactics_3.lean).
 
+Session 4: Number Theory.
+The slides from the fourt session are available [here](https://github.com/mariainesdff/EACA_School/blob/master/4_number_theory/session_4.pdf). They contain an overview of some of the recent developments of formalization of number theory in Lean.
+
 ## Installation Instructions
 Lean 4 installation instructions can be found [here](https://leanprover-community.github.io/get_started.html).
 
